@@ -7,7 +7,7 @@ from rango.models import Category, Page
 
 def populate():
     python_pages=[{"title": "Official Python Tutorial", "url":"https://docs.python.org/3/tutorial/"},
-                  {"title": "How to think like a Computer Scientist", "url":'https://www.greenteapress.com/thinkpython/'},
+                  {"title": "How to Think like a Computer Scientist", "url":'https://www.greenteapress.com/thinkpython/'},
                   {"title": "Learn Python in 10 Minutes", "url":'https://www.korokithakis.net/tutorials/python/'}]
     
     django_pages=[{'title':'Official Django Tutorial', 'url':'https://docs.djangoproject.com/en/2.1/intro/tutorial01/'},
